@@ -74,7 +74,7 @@ class CustomObject{
                  }};
                  Thread t=new Thread(run);
 		  t.start();
-                  
+                  System.out.println(" Added");	
 		 /*executor.shutdown();*/
 			
 	}
